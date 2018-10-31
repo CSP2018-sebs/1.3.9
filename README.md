@@ -1,4 +1,4 @@
-# 1.3.9. COOLIO BOIS😍😍🇸🇨🏳️‍🌈🏳️‍🌈👨‍❤️‍💋‍👨👨‍👨‍👧 WHY IS THIS SO HARD🍺🍺😈👙
+# 1.3.9
 
 
 from __future__ import print_function
