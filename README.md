@@ -1,5 +1,4 @@
-# 1.3.9
-
+# 1.3.9. COOLIO BOI
 
 from __future__ import print_function
 
