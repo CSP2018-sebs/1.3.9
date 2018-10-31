@@ -1,7 +1,4 @@
-# 1.3.9
-
-
-YEETUS MY FETUS
+# 1.3.9.0
 
 
 from __future__ import print_function
