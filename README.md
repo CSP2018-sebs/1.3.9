@@ -126,12 +126,19 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     ######
     #
-    #This example player always betrays.      
+    #This example player is silent at first and then 
+    #only betrays if they were a sucker last round.
+          
     elif player == 1:
         if getting_team_name:
-            return 'backstabber'
+            return 'loyal vengeful'
         else:
-            return 'b'
+            if len(opponent_history)==0: 
+                return 'c'
+            elif history[-1]=='c' and opponent_history[-1]=='b':
+                return 'b' 
+            else:
+                return 'c' 
 
 
 
