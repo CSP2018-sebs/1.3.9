@@ -1,4 +1,4 @@
-# 1.3.9 By Mr. Froman THE Legend
+# 1.3.9 
 
 from __future__ import print_function
 
