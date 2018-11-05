@@ -170,14 +170,16 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     ######
     #
-    elif player == 3:
+     elif player == 3:
         if getting_team_name:
-            return 'betray every 2rd round'
+            return 'loyal vengeful'
         else:
             # use history, opponent_history, score, opponent_score
             # to compute your strategy
-            size = len(history)
-            if(size%2==0): #the number of rounds played is a multiple of 2
+            if len(opponent_history)==0: #It's the first round: collude
                 return 'c'
+            elif history[-1]=='c' and opponent_history[-1]=='b':
+                return 'b' # betray is they were severely punished last time
             else:
-                return 'b'
+                return 'c' #otherwise collude
+
