@@ -1,6 +1,6 @@
 # 1.3.9 By Mr. Froman THE Legend
 
-from __future__ import print_function😀
+from __future__ import print_function
 
 ''' 
 PrisonerDilemma.py allows hard-coding different strategies
