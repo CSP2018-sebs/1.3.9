@@ -1,10 +1,7 @@
-
-
-
+# 1.3.9 By Mr. Froman THE Legend
 
 from __future__ import print_function
 
-''' 
 PrisonerDilemma.py allows hard-coding different strategies
 for the Iterative Prisoners Dilemma, the canonical game of game-theory.
 Each strategy plays 100 to 200 rounds against each other strategy.
@@ -159,8 +156,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
                 return 'c' #otherwise collude
                 
                 
-                
-                 elif player == 3:
+    elif player == 3:
         if getting_team_name:
             return 'loyal vengeful'
         else:
@@ -172,4 +168,4 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
                 return 'b' # betray is they were severely punished last time
             else:
                 return 'b' #otherwise collude
-    
+
