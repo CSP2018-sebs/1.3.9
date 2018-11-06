@@ -1,7 +1,7 @@
 
            
 1.3.9
-# Mr. Froman is a God who Shall be Worshipped by ALL MANKIND
+# Mr. Froman
 
 
 So everyone knows how all of our code was deleted yesterday right?  Yea so I went through, found an older copy, and replaced all of the deleted code I could.  I do not know why it now shows up as a website, but when you go into the editor all is well.  It shows your code correctly spaced, even if it does not in the GitHub preview.  I hope that what I did here was useful, because it was all I could think of to do.  (I had to rewrite all of our teams code.)  oof.  (;;)  
@@ -114,84 +114,6 @@ elif player == 1:
 
 
 ######
-######
-#   
-#This example player is silent at first and then 
-#only betrays if they were a sucker last round.
-elif player == 2:
-    if getting_team_name:
-        return 'loyal vengeful'
-    else:
-        if len(opponent_history)==0: #It's the first round: colluide 
-            return 'c'
-        elif history[-1]=='c' and opponent_history[-1]=='b':
-            return 'b' # betray if they were severely punished last time
-        else:
-            return 'c' #otherwise collude
-
-
-
-
-
-
-
-
-# Now here are the non example players.
- each team can edit one section of code
-
-
-
-
-
-
-
-
-######
-######
-#
-elif player == 3:
-    if getting_team_name:
-        return 'loyal vengeful'
-    else:
-        # use history, opponent_history, score, opponent_score
-        # to compute your strategy
-        if len(opponent_history)==0: #It's the first round: collude
-            return 'c'
-        elif history[-1]=='c' and opponent_history[-1]=='b':
-            return 'b' # betray is they were severely punished last time
-        else:
-            return 'c' #otherwise collude
-
-
-
-
-
-
-
-
-
-
-
-######
-######
-#
-elif player == 4:
-    if getting_team_name:
-        return 'betray every 3rd round'
-    else:
-        # use history, opponent_history, score, opponent_score
-        # to compute your strategy
-        size = len(history)
-        if(size%3==0): #the number of rounds played is a multiple of 3
-            return 'c'
-        else:
-            return 'b'
-
-
-
-
-
-
 
 
 
