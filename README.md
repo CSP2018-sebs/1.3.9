@@ -1,12 +1,6 @@
-Pacman is the god of this universe, respected and worshiped by the mortals across time and space
-
 *Pacman noises*
 
-okay but
-aAAAA
-
-betrayel.exe
-
+if player = 0
 1.3.9
 
 
