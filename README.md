@@ -678,4 +678,4 @@ for player in range(num_players):
     print('player ' + str(player) , ': ' , 
            str(int(scores[player])/num_players) , ' points: ',
            team_names[player])
-LOl Brendan has lost ALL of an digenty 
+ 
