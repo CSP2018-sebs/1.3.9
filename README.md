@@ -237,16 +237,18 @@ elif player == 7:
             return 'c'
         elif history[-1]=='c' and opponent_history[-1]=='b':
             return 'b' # betray is they were severely punished last time
-        elif: history[-1]=='b' and opponent_history[-1]=='b'
+        elif history[-1]=='b' and opponent_history[-1]=='b'
             if random.random()<.33 
                  return 'c'
             else:
                  return 'b'
-         elif: history[-1]=='c' and opponent_history[-1]=='c'
+         elif history[-1]=='c' and opponent_history[-1]=='c'
             if random.random()<.33 
                  return 'b'
             else:
                  return 'c'
+         elif history [-1]=='b' and opponent history[-1]=='c'
+            return 'c'
 
 
 
