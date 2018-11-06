@@ -1,6 +1,5 @@
 
 
-http://sebs.district70.org/uploads/3/7/7/4/37743257/8761743_orig.jpg 
 
 
 
