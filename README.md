@@ -132,7 +132,8 @@ elif player == 2:
 
 
 
-
+# Now here are the non example players.
+ each team can edit one section of code
 
 
 
