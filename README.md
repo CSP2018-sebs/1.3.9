@@ -1,6 +1,8 @@
 1.3.9
 Mr. Froman is a god and shall be worshipped by all mortals across time and space.
 
+*Pacman noises*
+
 from future import print_function
 
 ''' PrisonerDilemma.py allows hard-coding different strategies for the Iterative Prisoners Dilemma, the canonical game of game-theory. Each strategy plays 100 to 200 rounds against each other strategy. The results of all previous rounds within a 100-200 round stretch are known to both players.
