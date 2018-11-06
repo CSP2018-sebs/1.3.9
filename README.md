@@ -1,5 +1,5 @@
 1.3.9
-Brendent what did you do?
+Brendan what did you do?
 
 from future import print_function
 
