@@ -1,7 +1,7 @@
 
            
 1.3.9
-# Mr. Froman is the Reoming of Jesus
+# Mr. Froman is the Recoming of Jesus
 
 
 So everyone knows how all of our code was deleted yesterday right?  Yea so I went through, found an older copy, and replaced all of the deleted code I could.  I do not know why it now shows up as a website, but when you go into the editor all is well.  It shows your code correctly spaced, even if it does not in the GitHub preview.  I hope that what I did here was useful, because it was all I could think of to do.  (I had to rewrite all of our teams code.)  oof.  (;;)  
