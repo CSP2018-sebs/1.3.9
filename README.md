@@ -1,5 +1,5 @@
 1.3.9
-Mr. Froman is a god and shall be worshipped by all mortals across time and space.
+Mr. Froman is a god and shall be glorified by all mortals across time and space.
 
 *Pacman noises*
 
