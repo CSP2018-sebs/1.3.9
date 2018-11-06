@@ -1,5 +1,5 @@
 1.3.9
-Mr. Froman is a god and shall be worshipped by all mankind
+
 
 from future import print_function
 
@@ -128,7 +128,7 @@ elif player == 2:
 
 
 
-# EACH STUDENT TEAM CAN CHANGE ONE OF THESE elif SEGMENTS OF CODE.
+
 
 
 
@@ -672,3 +672,8 @@ for player in range(num_players):
     print('player ' + str(player) , ': ' , 
            str(int(scores[player])/num_players) , ' points: ',
            team_names[player])
+           
+          #project/sive/opened
+            open-file/10201001101
+            copied-fille/10201001101
+          operator-left/enddata.
