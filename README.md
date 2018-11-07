@@ -76,11 +76,8 @@ if player == 0:
     else:
         return 'c'
 
-
     
-        
-            
-                
+                      
                         
 ######
 ######
@@ -98,9 +95,6 @@ elif player == 1:
             return 'b' 
         else:
             return 'c' 
-
-
-
 
 
 
@@ -125,16 +119,8 @@ elif player == 2:
 
 
 
-
-
-
-
 # Now here are the non example players.
  each team can edit one section of code
-
-
-
-
 
 
 
@@ -158,13 +144,6 @@ elif player == 3:
 
 
 
-
-
-
-
-
-
-
 ######
 ######
 #
@@ -182,14 +161,6 @@ elif player == 4:
 
 
 
-
-
-
-
-
-
-
-
 ######
 ######        
 #
@@ -199,8 +170,6 @@ elif player == 9:
         return 'betray'
     else:
         return 'b'
-
-
 
 
 
@@ -255,9 +224,6 @@ elif player == 7:
 
 
 
-
-
-
 ######
 ######        
 #
@@ -294,14 +260,6 @@ elif player == 8:
 
 
 
-
-
-
-
-
-
-
-
 ######
 ######
 #
@@ -323,10 +281,6 @@ elif player == 9:
 
 
 
-
-
-
-
 ######
 ######
 #
@@ -342,11 +296,6 @@ elif player == 10:
             return 'b' # betray is they were severely punished last time
         else:
             return 'c' #otherwise collude
-
-
-
-
-
 
 
 
