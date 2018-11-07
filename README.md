@@ -320,11 +320,6 @@ elif player == 11:
 
 
 
-
-
-
-
-
 ######
 ######
 #
@@ -361,11 +356,6 @@ elif player == 13:
 
 
 
-
-
-
-
-
 ######
 ######
 #
@@ -387,8 +377,6 @@ elif player == 14:
 
 
 
-
-
 ######
 ######
 #
@@ -402,12 +390,6 @@ elif player == 15:
             return 'b' # betray is they were severely punished last time
         else:
             return 'c' #otherwise collude
-
-
-
-
-
-
 
 
 
@@ -427,12 +409,6 @@ elif player == 16:
 
 
 
-
-
-
-
-
-
 ######
 ######
 #
@@ -448,13 +424,6 @@ elif player == 17:
             return 'c' #otherwise collude
 
 
-
-
-
-
-
-
-
 ######
 ######
 #
@@ -468,14 +437,7 @@ elif player == 18:
             return 'b' # betray is they were severely punished last time
         else:
             return 'c' #otherwise collude
-
-
-
-
-
-
-
-
+            
 
 ######
 ######
@@ -621,4 +583,3 @@ for player in range(num_players):
     print('player ' + str(player) , ': ' , 
            str(int(scores[player])/num_players) , ' points: ',
            team_names[player])
- 
